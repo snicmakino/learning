@@ -1,3 +1,6 @@
+http://www.nltk.org/book/
+
+sudo apt-get install tk-dev
 
 NLTK,　numpyのインストール
 ```bash
@@ -15,7 +18,7 @@ python3
 
 ダウンローダが起動するので、Download → all ですべてダウンロードする
 
-````
+```
 NLTK Downloader
 ---------------------------------------------------------------------------
     d) Download   l) List    u) Update   c) Config   h) Help   q) Quit
@@ -24,6 +27,4 @@ Downloader> D
 
 Download which package (l=list; x=cancel)?
   Identifier> all
-
 ```
-
