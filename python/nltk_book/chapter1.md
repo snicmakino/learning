@@ -1,7 +1,9 @@
 http://www.nltk.org/book/ch01.html
 
+# 1. Language Processing and Python
+
 ## 1.1   Computing with Language: Texts and Words
-```python3
+```python
 from nltk.book import *
 
 # concordance
@@ -47,7 +49,7 @@ len(text3) / len(set(text3))
 ```
 
 ## 1.3   Computing with Language: Simple Statistics
-```
+```python
 # frequency distribution
 
 # FreqDist
@@ -59,8 +61,14 @@ fdist1.most_common(50)
 ```
 
 ## 3.3   Collocations and Bigrams
-```
+Collocation:コロケーション  
+一緒に使われる単語と単語のつながり、連語
+```python
+# bigrams
+# バイグラムという単語のペアのリストを取得する
+list(bigrams(['more', 'is', 'said', 'than', 'done']))
+
 # collocations
-# テキスト内で一緒に使われている単語を抽出する
+# テキスト内のコロケーションを取得する
 text4.collocations()
 ```
